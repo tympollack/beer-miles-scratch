@@ -19,3 +19,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+/src/config/strava-config.json
+/src/config/firebase-key-no-commit.json
