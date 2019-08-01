@@ -1,28 +1,33 @@
 const $user__state = {
-    user,
-    strava,
-    runs,
-    watchlist
+    user: 'User',
+    strava: 'Strava',
+    runs: 'Runs',
+    watchlist: 'Watchlist'
 }
-const $user__getters = {}
+const $user__getters = {
+    getUser: 'Get User',
+    getStrava: 'Get Strava',
+    getRuns: 'Get Runs',
+    getWatchlist: 'Get Watchlist'
+}
 const $user__mutations = {}
 const $user__actions = {}
 
 const state = {
     [$user__state.user]: {
-        firstName,
-        lastName,
-        city,
-        state,
-        zip,
-        email,
-        about
+        firstName: '',
+        lastName: '',
+        city: '',
+        state: '',
+        zip: '',
+        email: '',
+        about: ''
     },
 
     [$user__state.strava]: {
-        athleteId,
-        accessToken,
-        refreshToken
+        athleteId: '',
+        accessToken: '',
+        refreshToken: ''
     },
 
     [$user__state.runs]: [],
