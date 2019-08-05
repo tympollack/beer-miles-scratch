@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import './plugins/vuetify'
+import vuetify from './plugins/vuetify'
 import App from './App.vue'
 import store from './store/store'
 
@@ -10,5 +10,6 @@ Vue.use(Vuex)
 
 new Vue({
   store,
+  vuetify,
   render: h => h(App),
 }).$mount('#app')
